@@ -1,0 +1,6 @@
+We use 2 node trackers namely, prev and next_node to keep track of previous node and next node wrt current head. 
+Prev is initially None
+Next node is current head.next
+Current prev is assigned to current head.next as prev node will be next node in reversed list
+Then current head becomes the previous node and current next_node becomes head.
+This goes on until head becomes None and since prev is pointing to the head of the list at this point, we return prev
