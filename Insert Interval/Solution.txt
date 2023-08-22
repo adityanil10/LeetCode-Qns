@@ -1,0 +1,5 @@
+the main idea is that when iterating over the intervals there are three cases:
+
+1. the new interval is in the range of the other interval
+2. the new interval's range is before the other
+3. the new interval is after the range of other interval
